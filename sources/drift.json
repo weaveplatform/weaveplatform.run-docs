@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "instruction": "Review affected claims and diagrams. This report does not update pins or verification status.",
+  "sources": [
+    {
+      "id": "imageweave",
+      "repository": "weaveplatform/imageweave",
+      "baseline_revision": "3f81345846d7c64bc1b9c5f8f38949a02ca462c5",
+      "current_revision": "bd1ec68f22c44834828de7a2d568a0d16faf3e87",
+      "changes": [
+        {
+          "path": "go.mod",
+          "previous_sha256": "234011f24a7d60fad0e4a74b7776f7649c3a778803db208d0dcc119850d39b24",
+          "current_sha256": "28f1e969c1beece905cebe49601d42d571ecc5a22455e7c5e1beeeb596706770"
+        },
+        {
+          "path": ".github/workflows/image-native-candidate.yml",
+          "previous_sha256": "0589caae91afb535e0a3ba54fddc96969cc9a3956e31edee99514a44c84057c1",
+          "current_sha256": "3f579e2cb130229aed6c891b48c6fb5ae379198069e5c2bf4150ff645c4f517b"
+        },
+        {
+          "path": ".github/workflows/macos-candidate.yml",
+          "previous_sha256": "c64a39c1a9a48f3958ba12ba94dec2dfb98ea937e8cfda4043ea7a4133c08a4e",
+          "current_sha256": "72448fc8f39dbc87fc3520838efbd8bec0f8b40af81c570bc5240099c24b3367"
+        }
+      ]
+    },
+    {
+      "id": "channels",
+      "repository": "weaveplatform/weaveplatform-release-channels",
+      "baseline_revision": "e5f1f46c740ca8a2ca7c801fe266a58c2974cd71",
+      "current_revision": "d5b81a51445ad67e369c13b6b7a139de8db3f24b",
+      "changes": [
+        {
+          "path": ".github/workflows/quality-gate.yml",
+          "previous_sha256": "5709155d9806a8fe18f1944f22b5b524848c4531e3021a3639bacf072d4345c6",
+          "current_sha256": "e8a7d016c742d4e3133df1e6f9ca1ad9e76367af0319b0d80dccc5dfc4ff525d"
+        },
+        {
+          "path": ".github/workflows/promote.yml",
+          "previous_sha256": "800d6453a46769d5c7f74960f6666f69d5342db47842ef5465cc3d760102d30d",
+          "current_sha256": "323df25ee7c2633ab93be67b118b3425cbef3055d7fc93ff3cb5265c3f94b498"
+        }
+      ]
+    }
+  ]
+}
